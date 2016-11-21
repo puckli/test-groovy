@@ -7,9 +7,9 @@ target/
 
 .settings/
 
-.project
+#.project
 
-.classpath
+#.classpath
 
 
 
