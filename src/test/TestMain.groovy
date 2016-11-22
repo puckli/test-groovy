@@ -4,6 +4,6 @@ package test
 //	static main(args){
 //		println "hello groovy"
 //	}
-//}
+//} 
 
 println "hello script"
