@@ -1,4 +1,4 @@
-package test;
+package puck;
 
 import static org.junit.Assert.*
 
