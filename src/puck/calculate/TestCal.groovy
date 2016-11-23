@@ -1,4 +1,4 @@
-package test.calculate;
+package puck.calculate;
 
 import static org.junit.Assert.*
 

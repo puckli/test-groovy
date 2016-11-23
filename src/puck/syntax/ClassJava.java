@@ -1,10 +1,12 @@
-package test.syntax;
+package puck.syntax;
 
-import test.bean.EventDetailTo;
 import groovy.lang.Binding;
-import groovy.lang.GroovyClassLoader;
 import groovy.lang.GroovyShell;
 import groovy.util.Eval;
+
+import java.util.List;
+
+import puck.bean.EventDetailTo;
 
 /**
  * java & groovy
@@ -46,4 +48,19 @@ public class ClassJava {
 	public void forGr(String arg){
 		System.out.println(arg);
 	}
+	
+//	GroovyClassLoader
+	public void loadGrClazz(List<String> arg){
+		String msg = "你的订单%orderId%已完成";
+		String gr = "class tmp{";
+		for(String s : arg){
+			gr += "def " + s + ";";
+		}
+		gr += "}";
+		
+		
+		
+	}
+	
+	
 }

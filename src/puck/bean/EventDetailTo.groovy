@@ -1,4 +1,4 @@
-package test.bean
+package puck.bean
 
 class EventDetailTo {
  def id

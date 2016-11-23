@@ -1,4 +1,4 @@
-package puck
+package test
 
 //class TestMain {
 //	static main(args){

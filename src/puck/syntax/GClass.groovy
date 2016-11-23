@@ -1,4 +1,6 @@
-package test.syntax
+package puck.syntax
+
+import puck.bean.JavaBean
 
 
 class GClass {
@@ -9,5 +11,9 @@ class GClass {
 	
 	static main(arg){
 		new ClassJava().forGr("hello java baby");
+		
+		def jb = new JavaBean();
+		jb.java = "java filed";
+		println jb.@java
 	}
 }
