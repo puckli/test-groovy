@@ -36,7 +36,7 @@ public class ClassJava {
 		binding = new Binding();
 		binding.setVariable("to", to);
 		shell = new GroovyShell(binding);
-		script = "import test.bean.EventDetailTo; "
+		script = "import puck.bean.EventDetailTo; "
 		        + "def getTitle(EventDetailTo to) { return to.getTitle()}; "
 		        + "getTitle(to)";
 		value = shell.evaluate(script);
