@@ -9,7 +9,7 @@ import java.util.List;
 import puck.bean.EventDetailTo;
 
 /**
- * java & groovy
+ * java & groovy 
  * @author Puck
  *
  */
@@ -19,7 +19,7 @@ public class ClassJava {
 //		new GClass().script();
 		Eval.me("println 22");
 		
-		// method to
+		// method two
 		Binding binding = new Binding();
 		binding.setVariable("foo", new Integer(2));
 		GroovyShell shell = new GroovyShell(binding);
@@ -51,13 +51,7 @@ public class ClassJava {
 	
 //	GroovyClassLoader
 	public void loadGrClazz(List<String> arg){
-		String msg = "你的订单%orderId%已完成";
-		String gr = "class tmp{";
-		for(String s : arg){
-			gr += "def " + s + ";";
-		}
-		gr += "}";
-		
+	
 		
 		
 	}
